@@ -4,27 +4,42 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-
+        <style>
+            label {
+              
+                font-weight: bold;
+            }
+    
+          input{
+                padding: 8px;
+                margin-bottom: 8px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+    
+        </style>
     </head>
     <body>
         <div>
-                <!-- <label for="username">username</label>
-                <input type="text" id="username"  value="">
-                <label for="password">password</label>
-                <input type="password" id="password"  value="">
-                <button onclick="fnvalidate()">Submit</button> -->
-    
+
                 <label for="firstname">firstname</label>
                 <input type="text" id="firstname"  value="">
                 <p id="fnameCheck" class="check"></p>
                 <label for="lastname">lastname</label>
                 <input type="text" id="lastname"  value="">
+                <p id="lnameCheck" class="check"></p>
+            
                 <label for="email">email</label>
                 <input type="email" id="email"  value="">
+                <p id="emailCheck" class="check"></p>
+                
                 <label for="Phoneno">Phone No.</label>
-                <input type="number" id="phoneno"  value="">
+                <input type="number" id="phoneno"  value=""> <br>
+                
                 <label for="password">password</label>
                 <input type="password" id="password"  value="">
+                <p id="passwordCheck" class="check"></p>
+
                 <button onclick="fnvalidatesignup()">Submit</button>
         </div>
             <script src="script.js"></script>
